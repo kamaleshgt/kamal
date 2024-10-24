@@ -1,0 +1,26 @@
+sample_list=[1,2,3,4,5,6,7,8,8,9]
+print("memory consumption by an element in the array:",sys.getsizeof(sample_list[0]))
+print("memory usage by  list array:",(sys.getsizeof(sample_list[0]))*len(sample_list)) 
+
+
+two_d_array=np.array([[4,5],[1,2],[3,4]])
+print(two_d_array)
+
+two_d_array=np.array([[4,5],[1,2],[3,4]])
+print(two_d_array)
+
+three_d_array=np.array([[[1,2],[3,4],[5,6],[7,8]]])
+print(three_d_array)
+
+
+
+import sys
+sample_list=[1,2,3,4,5,6,7,8,8,9]
+print("memory consumption by an element in the array:",sys.getsizeof(sample_list[0]))
+print("memory usage by  list array:",(sys.getsizeof(sample_list[0]))*len(sample_list))
+
+
+numpy_array=np.array([1,2,3,4,5,6,7,8,8,9])
+print("memory consumption by an element in the array:",numpy_array.itemsize)
+print("memory usage by  list array:",numpy_array.itemsize*numpy_array.size)
+
